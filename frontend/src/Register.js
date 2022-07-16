@@ -1,4 +1,3 @@
-/*
 import styled from "styled-components";
 import { createGlobalStyle } from 'styled-components';
 
@@ -23,9 +22,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-*/
 /* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -57,16 +55,12 @@ const Container = styled.div`
   padding-right: 40px;
   height: 500px;
 `;
-
-
-
 const Header = styled.div`
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
 `;
-
 const Title = styled.div`
   width: 100%;
   height: 60px;
@@ -77,7 +71,6 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 400;
 `;
-
 const Box = styled.div`
   width: 100%;
   height: 124px;
@@ -86,7 +79,6 @@ const Box = styled.div`
   justify-content: space-between;
   margin-bottom: 20px;
 `;
-
 const Input = styled.input`
   height: 52px;
   border: 2px solid black;
@@ -95,7 +87,6 @@ const Input = styled.input`
 
   font-size: 15px;
 `;
-
 const Button = styled.button`
   width: 100%;
   height: 52px;
@@ -112,12 +103,7 @@ const Button = styled.button`
 `;
 
 
-
-
-
-
-
-function App() {
+function Register() {
   return (
    <> 
     <GlobalStyle />
@@ -134,5 +120,4 @@ function App() {
   );
 }
 
-export default App;
-*/
+export default Register.js;
