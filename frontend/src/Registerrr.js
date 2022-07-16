@@ -63,8 +63,8 @@ const Header = styled.div`
 `;
 const Title = styled.div`
   width: 100%;
-  height: 60px;
-  margin-bottom: 15px;
+  height: 50px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
 
@@ -73,17 +73,16 @@ const Title = styled.div`
 `;
 const Box = styled.div`
   width: 100%;
-  height: 124px;
+  height: 62px;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 `;
 const Input = styled.input`
   height: 52px;
   border: 2px solid black;
   padding-left: 15px;
-  margin-bottom: 10px;
 
   font-size: 15px;
 `;
@@ -101,23 +100,45 @@ const Button = styled.button`
   font-size: 13px;
   font-weight: bold;
 `;
+const Ref = styled.div`
+  width: 100%;
+  height: 50px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;  
+`;
+
+const Text = styled.p`
+  width: 100%;
+
+  font-size: 13px;
+`;
+
+const Link = styled.a`
+  color: inherit;
+`
 
 
-function Register() {
+function Registerrr() {
   return (
    <> 
     <GlobalStyle />
     <Container>
       <Header>⬅</Header>
-      <Title>Register</Title>
+      <Title>Register2</Title>
       <Box>
-        <Input placeholder="jane@example.com"/>
-        <Input placeholder="············"/>
+        <Input placeholder="the_jane"/>
       </Box>
-      <Button>NEXT</Button>
+      <Button>SIGN UP</Button>
+      <Ref>
+        <Text>By singing up, you agree to Photo's <Link href="https://youtu.be/0SvHoaVUzkk">Terms of Service</Link> and <Link href="https://m.musinsa.com/?mod=private">Privacy Policy.</Link></Text>
+      </Ref>
     </Container>
   </>
   );
 }
 
-export default Register;
+export default Registerrr;
